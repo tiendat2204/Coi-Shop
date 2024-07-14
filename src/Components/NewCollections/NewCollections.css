@@ -1,0 +1,52 @@
+.new-collections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+.new-collections h1 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+}
+.new-collections hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: #4d4d4d;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+  gap: 20px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  border: 1px solid #ddd; 
+  background-color: #f8f8f8; 
+  color: #333; 
+  text-align: center;
+  padding: 8px 16px;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pagination button:hover {
+  background-color: #e9e9e9;
+  transform: translateY(-2px);
+}
+
+.pagination button.active {
+  background-color: #ffffff; 
+  color: rgb(0, 0, 0);
+  border-color: #000000; 
+}
