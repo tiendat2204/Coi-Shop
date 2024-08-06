@@ -19,7 +19,7 @@ import ProductOrder from "../Components/ProductOrder/ProductOrder";
 import Comment from "../Components/Comment/Comment";
 export function ProductDetail() {
   const dispatch = useDispatch();
-  const { productId } = useParams();
+  const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const [quantity, setQuantity] = useState(1);
@@ -30,7 +30,7 @@ export function ProductDetail() {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const productData = await getProduct(productId);
+        const productData = await getProduct(id);
 
         setProduct(productData);
       } catch (error) {
@@ -41,7 +41,7 @@ export function ProductDetail() {
     };
 
     fetchProduct();
-  }, [productId]);
+  }, [id]);
 
   if (loading) {
     return <Loading />;
@@ -210,7 +210,7 @@ export function ProductDetail() {
         <ProductOrder />
       </div>
       <div>
-        <Comment productId={productId} />
+        <Comment productId={id} />
       </div>
       <div className="2xl:container 2xl:mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4">
         <h2 className="font-semibold dark:text-white lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-gray-800">

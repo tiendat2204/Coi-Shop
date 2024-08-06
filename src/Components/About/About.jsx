@@ -147,8 +147,8 @@ const About = () => {
           </h2>
           <p class="font-normal text-base leading-6 dark:text-gray-400 text-gray-600 mt-4 lg:w-5/12 md:w-9/12 mx-auto">
             Follow us on instagram @
-            <span class="underline cursor-pointer">Tiendat224</span> and
-            tag us to get featured on our timeline
+            <span class="underline cursor-pointer">Tiendat224</span> and tag us
+            to get featured on our timeline
           </p>
         </div>
         <div class="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:grap-8 md:gap-6 gap-4 mt-10">
@@ -244,7 +244,7 @@ const About = () => {
             <img
               src="../Assets/IMG_6582.jpg"
               alt="Men Posing"
-              class="lg:block hidden w-full object-cover h-full" 
+              class="lg:block hidden w-full object-cover h-full"
             />
             <img
               src="https://i.ibb.co/myWxfSm/pexels-spencer-selover-775358-1-1.png"

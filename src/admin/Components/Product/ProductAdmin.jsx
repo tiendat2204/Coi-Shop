@@ -336,7 +336,7 @@ const ProductAdmin = () => {
             ))
   ) : (
     <tr>
-      <td colspan="9" class="p-4 text-center mt-72">No Product.</td>
+      <td colspan="9" class="p-4 text-center mt-72">Không có sản phẩm.</td>
     </tr>
   )}
           </tbody>
@@ -355,20 +355,20 @@ const ProductAdmin = () => {
       )}
       <Dialog open={isDeleteDialogOpen} handler={closeDeleteDialog}>
         <DialogBody>
-          <p>Are you sure you want to delete this product?</p>
+          <p>Bạn có muốn xóa sản phẩm này?</p>
         </DialogBody>
         <DialogFooter>
           <button
             className="select-none rounded-lg bg-gray-900 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             onClick={handleDeleteProduct}
           >
-            Yes, Delete
+            Vâng , Xóa
           </button>
           <button
             className="ml-2 select-none rounded-lg bg-gray-200 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             onClick={closeDeleteDialog}
           >
-            Cancel
+            Hủy
           </button>
         </DialogFooter>
       </Dialog>
@@ -377,77 +377,4 @@ const ProductAdmin = () => {
 };
 
 export default ProductAdmin;
-{
-  /* <div class="flex items-center justify-between p-4 border-t border-blue-gray-50">
-<button
-  class="select-none rounded-lg border border-gray-900 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-  type="button"
->
-  Previous
-</button>
-<div class="flex items-center gap-2">
-  <button
-    class="relative h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-lg border border-gray-900 text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-    type="button"
-  >
-    <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-      1
-    </span>
-  </button>
-  <button
-    class="relative h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-    type="button"
-  >
-    <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-      2
-    </span>
-  </button>
-  <button
-    class="relative h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-    type="button"
-  >
-    <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-      3
-    </span>
-  </button>
-  <button
-    class="relative h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-    type="button"
-  >
-    <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-      ...
-    </span>
-  </button>
-  <button
-    class="relative h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-    type="button"
-  >
-    <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-      8
-    </span>
-  </button>
-  <button
-    class="relative h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-    type="button"
-  >
-    <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-      9
-    </span>
-  </button>
-  <button
-    class="relative h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-    type="button"
-  >
-    <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-      10
-    </span>
-  </button>
-</div>
-<button
-  class="select-none rounded-lg border border-gray-900 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-  type="button"
->
-  Next
-</button>
-</div> */
-}
+

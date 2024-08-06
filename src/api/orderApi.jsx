@@ -1,3 +1,4 @@
+import axios from "axios";
 import { createAxiosInstance } from "../Components/Ultils/axiosInstance";
 const axiosInstance = createAxiosInstance();
 export const postOrders = async (orderData) => {
@@ -13,6 +14,25 @@ export const postOrders = async (orderData) => {
   } catch (error) {
     console.error("Error registering user:", error);
     throw error;
+  }
+};
+export const postOrdersMomo = async (orderData) => {
+  console.log(orderData);
+  try {
+    const response = await axios.post(
+      "http://localhost:3005/orders/checkout/momo",
+      { orderDetails: orderData },  
+      {
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        withCredentials: true,
+      }
+    );
+    return response;
+  } catch (error) {
+    console.error("Error registering user:", error);
+    throw new Error("Failed to process MoMo payment");
   }
 };
 export const updateOrder = async (orderId, updateData) => {

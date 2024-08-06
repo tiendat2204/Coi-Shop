@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Item = ({ product }) => {
   if (!product) return null;
@@ -12,7 +13,7 @@ const Item = ({ product }) => {
 
   return (
     <div className="w-full overflow-hidden bg-white ">
-      <a href={`/product/${product._id}`} className="block">
+   <Link to={`/product/${product._id}`} className="block">
         <img
           className="w-full h-70 object-cover object-center transition-transform duration-500 hover:scale-105"
           src={product.image}
@@ -29,7 +30,7 @@ const Item = ({ product }) => {
             </span>
           </div>
         </div>
-      </a>
+        </Link>
     </div>
   );
 };

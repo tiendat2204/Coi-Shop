@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { formatPrice } from "../Ultils/formatPrice";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
-import { postOrders } from "../../api/orderApi";
+import { postOrders, postOrdersMomo } from "../../api/orderApi";
 import { showNotification } from "../../redux/notificationSlice";
 import { clearCart } from "../../redux/cartSlice";
 import { getUser } from "../../api/usersApi";
@@ -170,7 +170,8 @@ const Checkout = () => {
       !address ||
       !selectedProvince ||
       !selectedDistrict ||
-      !selectedWard
+      !selectedWard ||
+      !paymentMethod
     ) {
       dispatch(
         showNotification({
@@ -182,7 +183,27 @@ const Checkout = () => {
     }
     try {
       const ordersData = await getOrderData();
-      const response = await postOrders(ordersData);
+
+      let response;
+      switch (paymentMethod) {
+        case "MoMo":
+          response = await postOrdersMomo(ordersData);
+          break;
+        case "COD":
+          response = await postOrders(ordersData);
+          break;
+        case "Bank":
+          dispatch(
+            showNotification({
+              message:
+                "Bank Transfer payment method is currently not supported.",
+              type: "error",
+            })
+          );
+          return;
+        default:
+          throw new Error("Invalid payment method");
+      }
 
       if (response.status === 201) {
         dispatch(
@@ -202,6 +223,27 @@ const Checkout = () => {
         setTimeout(() => {
           window.location.href = "/";
         }, 3000);
+      } else if (response.status === 200 && paymentMethod === "MoMo") {
+        const { payUrl, resultCode } = response.data;
+
+        if (resultCode === 0) {
+          window.location.href = payUrl;
+          setAddress("");
+          setEmail("");
+          setName("");
+          setPhoneNumber("");
+          setSelectedDistrict("");
+          setSelectedProvince("");
+          setSelectedWard("");
+          dispatch(clearCart());
+        } else {
+          dispatch(
+            showNotification({
+              message: "MoMo payment failed. Please try again.",
+              type: "error",
+            })
+          );
+        }
       } else {
         dispatch(
           showNotification({
@@ -250,7 +292,7 @@ const Checkout = () => {
       wards.find((ward) => ward.WardCode === selectedWard)?.WardName || "";
     const accessToken = localStorage.getItem("accessToken");
     const userInfo = await getUser(accessToken);
-    const id = userInfo._id; 
+    const id = userInfo._id;
     const orderData = {
       name: name,
       email: email,

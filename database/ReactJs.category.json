@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "660ec2613b9a5caf6f07adaa"
+  },
+  "name": "Áo thun",
+  "status": "Inactive",
+  "id": "5",
+  "view": 100
+},
+{
+  "_id": {
+    "$oid": "66437592058400a1cbda5d02"
+  },
+  "name": "Quần jean",
+  "status": "Active",
+  "view": 150
+},
+{
+  "_id": {
+    "$oid": "66437592058400a1cbda5d03"
+  },
+  "name": "Áo khoác",
+  "status": "Active",
+  "view": 200
+},
+{
+  "_id": {
+    "$oid": "66437592058400a1cbda5d04"
+  },
+  "name": "Váy",
+  "status": "Active",
+  "view": 180
+},
+{
+  "_id": {
+    "$oid": "66437592058400a1cbda5d05"
+  },
+  "name": "Phụ kiện thời trang",
+  "status": "Active",
+  "productCount": 0,
+  "view": 120
+}]

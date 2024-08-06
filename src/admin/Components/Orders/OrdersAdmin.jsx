@@ -96,7 +96,12 @@ const OrdersAdmin = () => {
               </th>
               <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
                 <p className="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
-                  Status
+                  Status Order
+                </p>
+              </th>
+              <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
+                <p className="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+                  Status Payments
                 </p>
               </th>
               <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
@@ -147,6 +152,17 @@ const OrdersAdmin = () => {
                   </div>
                 </td>
                 <td className="p-4 border-b border-blue-gray-50">
+                  <p
+                    className={`block font-sans text-sm font-medium leading-tight truncate w-full ${
+                      order.statusPayment === "Confirmed"
+                        ? "text-green-500"
+                        : "text-red-500"
+                    }`}
+                  >
+                    {order.statusPayment ?? "Không có"}
+                  </p>
+                </td>
+                <td className="p-4 border-b border-blue-gray-50">
                   <p className="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900 truncate w-auto">
                     {formatPrice(order.totalPrice)}
                   </p>
@@ -156,6 +172,7 @@ const OrdersAdmin = () => {
                     {order.paymentMethod}
                   </p>
                 </td>
+              
                 <td className="p-4 border-b border-blue-gray-50 text-center">
                   <p className="font-sans text-sm font-normal leading-normal text-blue-gray-900 truncate">
                     {new Date(order.createdAt).toLocaleString()}

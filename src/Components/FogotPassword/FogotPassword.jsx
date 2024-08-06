@@ -9,7 +9,7 @@ const ForgotPassword = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [searchParams] = useSearchParams();
-  const resetToken = searchParams.get("token");
+  const resetToken = searchParams.get("tokenForgot");
 
   const handleResetPassword = async (e) => {
     e.preventDefault();

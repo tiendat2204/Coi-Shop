@@ -8,7 +8,9 @@ import {
 } from "../../api/usersApi";
 import { showNotification } from "../../redux/notificationSlice";
 import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
 const LoginRegister = ({ onClose, initialModalType }) => {
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const [modalType, setModalType] = useState(initialModalType);
   const showLoginForm = () => setModalType("login");
@@ -95,7 +97,7 @@ const LoginRegister = ({ onClose, initialModalType }) => {
         }
         if (userData.role === 1) {
           setTimeout(() => {
-            window.location.href = "/admin";
+            navigate("/admin");
           }, 2000);
         } else {
           setTimeout(() => {

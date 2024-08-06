@@ -1,0 +1,366 @@
+[{
+  "_id": {
+    "$oid": "667816a678cc6d54d1bae289"
+  },
+  "name": "tiendats123",
+  "email": "datboyngeo@gmail.com",
+  "role": 1,
+  "status": "active",
+  "password": "$2a$10$edC8pepl8DyJ.X043Rgb3e6yNcbSLZcUKg5s2AC1Gefc.e2yMCzo2",
+  "createdAt": "2024-06-23T12:35:50.846Z"
+},
+{
+  "_id": {
+    "$oid": "668a27a3f6877c5c81f0b514"
+  },
+  "googleId": "102893355191522904125",
+  "name": "Trieu Tien Dat (FPL HCM)",
+  "status": "active",
+  "role": 0,
+  "email": "datttps31485@fpt.edu.vn",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocJ9NJFJWxg9Ibr2-L7KySro62WQE7L09xO52TBP5mSUqNiV2g=s96-c",
+  "password": "$2a$10$rk.17pdCZ.ADB3RO5gXpVO.9RMbmDPzn65aVaI1VuAYcGadK.hhKa",
+  "createdAt": "2024-07-07T05:29:07.588Z",
+  "orders": [
+    {
+      "name": "kkkka1233",
+      "email": "dashjdbjsbaj@gmail.com",
+      "address": "12 vip ,Xã/Phường: Xã Phiêng Ban  Quận/Huyện: Huyện Bắc Yên,Thành phố/Tỉnh: Sơn La,",
+      "shippingFee": 39001,
+      "product": [
+        {
+          "_id": "666bd9608916f7b0ea7fd674",
+          "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+          "price": 85,
+          "size": "L",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_29.png",
+          "quantity": 1
+        }
+      ],
+      "phoneNumber": "035411541",
+      "paymentMethod": "BANK",
+      "subtotal": 85,
+      "totalPrice": 39086,
+      "userId": "668a27a3f6877c5c81f0b514",
+      "createdAt": "2024-07-07T05:45:46.429Z",
+      "status": "Delivered",
+      "_id": {
+        "$oid": "668a2b8a524a7c208861846c"
+      }
+    },
+    {
+      "name": "kkkka123",
+      "email": "datboyngeo@gmail.com",
+      "address": "123 vip ,Xã/Phường: Xã Sơn Long  Quận/Huyện: Huyện Sơn Hòa,Thành phố/Tỉnh: Phú Yên,",
+      "shippingFee": 34000,
+      "product": [
+        {
+          "_id": "666bd9608916f7b0ea7fd677",
+          "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+          "price": 85,
+          "size": "S",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_32.png",
+          "quantity": 1
+        },
+        {
+          "_id": "666bd9608916f7b0ea7fd65d",
+          "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+          "price": 10000,
+          "size": "L",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_4.webp",
+          "quantity": 2
+        }
+      ],
+      "phoneNumber": "0355411541",
+      "paymentMethod": "COD",
+      "subtotal": 20085,
+      "totalPrice": 54085,
+      "userId": "668a27a3f6877c5c81f0b514",
+      "createdAt": "2024-07-23T10:14:27.617Z",
+      "status": "Pending",
+      "_id": {
+        "$oid": "669f8283e6c41a4d0e28ab80"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "669f8707a6f469a66dd27137"
+      },
+      "name": "kkkka123",
+      "email": "datvip@gmail.com",
+      "address": "123 vipp ,Xã/Phường: Xã Suối Bàng  Quận/Huyện: Huyện Vân Hồ,Thành phố/Tỉnh: Sơn La,",
+      "shippingFee": 39001,
+      "product": [
+        {
+          "_id": "666bd9608916f7b0ea7fd666",
+          "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+          "price": 94000,
+          "size": "M",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_13.png",
+          "quantity": 1
+        }
+      ],
+      "phoneNumber": "0354111541",
+      "paymentMethod": "MoMo",
+      "subtotal": 94000,
+      "totalPrice": 133001,
+      "userId": "668a27a3f6877c5c81f0b514",
+      "createdAt": "2024-07-23T10:33:43.605Z",
+      "status": "Pending"
+    },
+    {
+      "_id": {
+        "$oid": "669f8a9af71a306f4db5e1f8"
+      },
+      "name": "kkkka123",
+      "email": "datboyngeo@gmail.com",
+      "address": "123 ,Xã/Phường: Xã Nguyệt Đức  Quận/Huyện: Thị xã Thuận Thành,Thành phố/Tỉnh: Bắc Ninh,",
+      "shippingFee": 29000,
+      "product": [
+        {
+          "_id": "666bd9608916f7b0ea7fd666",
+          "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+          "price": 94000,
+          "size": "M",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_13.png",
+          "quantity": 1
+        },
+        {
+          "_id": "666bd9608916f7b0ea7fd666",
+          "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+          "price": 94000,
+          "size": "L",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_13.png",
+          "quantity": 1
+        }
+      ],
+      "phoneNumber": "03541251",
+      "paymentMethod": "MoMo",
+      "subtotal": 188000,
+      "totalPrice": 217000,
+      "userId": "668a27a3f6877c5c81f0b514",
+      "createdAt": "2024-07-23T10:48:58.575Z",
+      "status": "Pending"
+    },
+    {
+      "_id": {
+        "$oid": "669f9009e676da2459db0207"
+      },
+      "name": "kkkka123",
+      "email": "datboyngeo@gmail.com",
+      "address": "123@ ,Xã/Phường: Xã Ninh Thạnh Lợi A  Quận/Huyện: Huyện Hồng Dân,Thành phố/Tỉnh: Bạc Liêu,",
+      "shippingFee": 34000,
+      "product": [
+        {
+          "_id": "666bd9608916f7b0ea7fd66d",
+          "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+          "price": 8500,
+          "size": "L",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_20.png",
+          "quantity": 6
+        }
+      ],
+      "phoneNumber": "0123456789",
+      "paymentMethod": "MoMo",
+      "subtotal": 51000,
+      "totalPrice": 85000,
+      "userId": "668a27a3f6877c5c81f0b514",
+      "createdAt": "2024-07-23T11:12:09.416Z",
+      "status": "Pending"
+    },
+    {
+      "_id": {
+        "$oid": "669f9131e676da2459db0208"
+      },
+      "name": "kkkka123",
+      "email": "datboyngeo@gmail.com",
+      "address": "123 edn ,Xã/Phường: Xã Đồng Kho  Quận/Huyện: Huyện Tánh Linh,Thành phố/Tỉnh: Bình Thuận,",
+      "shippingFee": 34000,
+      "product": [
+        {
+          "_id": "666bd9608916f7b0ea7fd66c",
+          "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+          "price": 8500,
+          "size": "L",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_19.png",
+          "quantity": 4
+        }
+      ],
+      "phoneNumber": "354411541",
+      "paymentMethod": "MoMo",
+      "subtotal": 34000,
+      "totalPrice": 68000,
+      "userId": "668a27a3f6877c5c81f0b514",
+      "createdAt": "2024-07-23T11:17:05.304Z",
+      "status": "Pending"
+    },
+    {
+      "_id": {
+        "$oid": "669f941d080dcf77842b93c4"
+      },
+      "name": "phát",
+      "email": "datboyngeo@gmail.com",
+      "address": "256/1/6 dương quảng hàm ,Xã/Phường: Phường 5  Quận/Huyện: Quận Gò Vấp,Thành phố/Tỉnh: Hồ Chí Minh,",
+      "shippingFee": 21000,
+      "product": [
+        {
+          "_id": "666bd9608916f7b0ea7fd666",
+          "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+          "price": 94000,
+          "size": "M",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_13.png",
+          "quantity": 2
+        }
+      ],
+      "phoneNumber": "0354411541",
+      "paymentMethod": "MoMo",
+      "subtotal": 188000,
+      "totalPrice": 209000,
+      "userId": "668a27a3f6877c5c81f0b514",
+      "createdAt": "2024-07-23T11:29:33.044Z",
+      "status": "Pending"
+    },
+    {
+      "_id": {
+        "$oid": "669f94a9080dcf77842b93c5"
+      },
+      "name": "Phước",
+      "email": "datboy@gmail.com",
+      "address": "256 dương quảng hàm ,Xã/Phường: Phường 5  Quận/Huyện: Quận Gò Vấp,Thành phố/Tỉnh: Hồ Chí Minh,",
+      "shippingFee": 21000,
+      "product": [
+        {
+          "_id": "666bd9608916f7b0ea7fd669",
+          "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+          "price": 8500,
+          "size": "M",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_16.png",
+          "quantity": 3
+        }
+      ],
+      "phoneNumber": "0898334564",
+      "paymentMethod": "MoMo",
+      "subtotal": 25500,
+      "totalPrice": 46500,
+      "userId": "668a27a3f6877c5c81f0b514",
+      "createdAt": "2024-07-23T11:31:53.977Z",
+      "status": "Pending"
+    },
+    {
+      "_id": {
+        "$oid": "669faedf080dcf77842b93c6"
+      },
+      "name": "NHi",
+      "email": "datboyngeo@gmail.com",
+      "address": "256/1/6 dương quảng hàm ,Xã/Phường: Phường 5  Quận/Huyện: Quận Gò Vấp,Thành phố/Tỉnh: Hồ Chí Minh,",
+      "shippingFee": 21000,
+      "product": [
+        {
+          "_id": "666bd9608916f7b0ea7fd666",
+          "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+          "price": 94000,
+          "size": "M",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_13.png",
+          "quantity": 5
+        }
+      ],
+      "phoneNumber": "0354411541",
+      "paymentMethod": "MoMo",
+      "subtotal": 470000,
+      "totalPrice": 491000,
+      "userId": "668a27a3f6877c5c81f0b514",
+      "createdAt": "2024-07-23T13:23:43.708Z",
+      "status": "Delivered"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "669a05cadd6388d9dd1255d0"
+  },
+  "googleId": "115721275923737889927",
+  "name": "Đạt Tiến",
+  "status": "active",
+  "role": 0,
+  "email": "tiendat220404@gmail.com",
+  "photo": "https://lh3.googleusercontent.com/a/ACg8ocKd_TRoJdeiEBPNiowmrIVhUOhRvip4aPkkTFxqb6RSQrX984TZ=s96-c",
+  "password": "$2a$10$T41G1jLy/ZgthcO30Y/ufuLXQc9u9gAnE8yUJj9hXtHh33nbVzwAe",
+  "createdAt": "2024-07-19T06:20:58.428Z",
+  "orders": [
+    {
+      "name": "kkkka123",
+      "email": "datboyngeo@gmail.com",
+      "address": "123@ ,Xã/Phường: Xã Tân Xuân  Quận/Huyện: Huyện Vân Hồ,Thành phố/Tỉnh: Sơn La,",
+      "shippingFee": 39001,
+      "product": [
+        {
+          "_id": "666bd9608916f7b0ea7fd674",
+          "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+          "price": 85,
+          "size": "M",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_29.png",
+          "quantity": 2
+        },
+        {
+          "_id": "666bd9608916f7b0ea7fd671",
+          "name": "Men Green Solid ",
+          "price": 85,
+          "size": "L",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_26.png",
+          "quantity": 1
+        },
+        {
+          "_id": "666bd9608916f7b0ea7fd66d",
+          "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+          "price": 8500,
+          "size": "L",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_20.png",
+          "quantity": 1
+        },
+        {
+          "_id": "666bd9608916f7b0ea7fd671",
+          "name": "Men Green Solid ",
+          "price": 85,
+          "size": "M",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_26.png",
+          "quantity": 1
+        },
+        {
+          "_id": "666bd9608916f7b0ea7fd673",
+          "name": "Hooded Sweatshirt",
+          "price": 85,
+          "size": "S",
+          "description": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love, even that we give them all we have. Then we lose family over time. What else could rust the heart more over time? Blackgold.",
+          "image": "http://localhost:3005/uploads/products/product_28.png",
+          "quantity": 1
+        }
+      ],
+      "phoneNumber": "0354411654",
+      "paymentMethod": "COD",
+      "subtotal": 8925,
+      "totalPrice": 47926,
+      "userId": "669a05cadd6388d9dd1255d0",
+      "createdAt": "2024-07-19T06:22:46.684Z",
+      "status": "Cancelled",
+      "_id": {
+        "$oid": "669a0636dd6388d9dd1255d1"
+      }
+    }
+  ],
+  "resetToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWEwNWNhZGQ2Mzg4ZDlkZDEyNTVkMCIsImVtYWlsIjoidGllbmRhdDIyMDQwNEBnbWFpbC5jb20iLCJpYXQiOjE3MjEzNzA2MDgsImV4cCI6MTcyMTM3MDY2OH0.zcmtYjHsIdzgL-pqxo9zu3q9IFpcppCtJ-PxCMypCbc"
+}]

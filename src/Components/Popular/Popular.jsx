@@ -58,19 +58,19 @@ const Popular = () => {
 
   return (
     <div className="bg-white py-12 ">
-      <h1 className="text-3xl font-bold text-center text-gray-900 mb-8">
+      <h1 className="text-3xl font-bold text-center text-gray-900 mb-8  max-h-3">
         POPULAR IN VIEW
       </h1>
       <hr className="max-w-xl mx-auto border-t-2 border-gray-300" />
       <div className="mt-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-x-10">
-  <Slider {...settings}>
-    {products.map((product) => (
-      <div className="px-2" key={product._id}> 
-        <Item key={product._id} product={product} />
+        <Slider {...settings}>
+          {products.map((product) => (
+            <div className="px-2" key={product._id}>
+              <Item key={product._id} product={product} />
+            </div>
+          ))}
+        </Slider>
       </div>
-    ))}
-  </Slider>
-</div>
     </div>
   );
 };

@@ -20,6 +20,7 @@ import CategoryAdmin from "./admin/Components/Category/CategoryAdmin";
 import UsersAdmin from "./admin/Components/Users/UsersAdmin";
 import OrdersAdmin from "./admin/Components/Orders/OrdersAdmin";
 import CommentsAdmin from "./admin/Components/Comments/CommentsAdmin";
+import Thankyou from "./Pages/Thankyou";
 
 const Shop = lazy(() => import("./Pages/Shop"));
 const ShopCategory = lazy(() => import("./Pages/ShopCategory"));
@@ -61,10 +62,12 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/infomation" element={<Infomation />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/product/:productId" element={<ProductDetail />} />
+              <Route path="/product/:id" element={<ProductDetail />} />
               <Route path="/cart" element={<Cart />} />
               <Route path="/forgotPassword" element={<ForgotPassword />} />
               <Route path="/checkout" element={<Checkout />} />
+              <Route path="/thankyou" element={<Thankyou />} />
+
             </Route>
             <Route path="/admin" element={<AdminLayout />}>
               <Route index element={<DashboardAdmin />} />

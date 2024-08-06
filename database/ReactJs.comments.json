@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "66814eed4997a203e4ce9255"
+  },
+  "productId": {
+    "$oid": "666bd9608916f7b0ea7fd66e"
+  },
+  "userId": {
+    "$oid": "668141b2347a18af790ed5ec"
+  },
+  "username": "Trieu Tien Dat (FPL HCM)",
+  "photoUser": "https://lh3.googleusercontent.com/a/ACg8ocJ9NJFJWxg9Ibr2-L7KySro62WQE7L09xO52TBP5mSUqNiV2g=s96-c",
+  "commentText": "vipss",
+  "rating": 3,
+  "timestamp": {
+    "$date": "2024-06-30T12:26:21.226Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "668150284997a203e4ce9256"
+  },
+  "productId": {
+    "$oid": "666bd9608916f7b0ea7fd670"
+  },
+  "userId": {
+    "$oid": "668141b2347a18af790ed5ec"
+  },
+  "username": "Trieu Tien Dat (FPL HCM)",
+  "photoUser": "https://lh3.googleusercontent.com/a/ACg8ocJ9NJFJWxg9Ibr2-L7KySro62WQE7L09xO52TBP5mSUqNiV2g=s96-c",
+  "commentText": "",
+  "rating": 4,
+  "timestamp": {
+    "$date": "2024-06-30T12:31:36.171Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "66858118d3c1b15e272c3c83"
+  },
+  "productId": {
+    "$oid": "666bd9608916f7b0ea7fd674"
+  },
+  "userId": {
+    "$oid": "668574831d294804d810517e"
+  },
+  "username": "Đạt Tiến",
+  "photoUser": "https://lh3.googleusercontent.com/a/ACg8ocKd_TRoJdeiEBPNiowmrIVhUOhRvip4aPkkTFxqb6RSQrX984TZ=s96-c",
+  "commentText": "vsdssjhdhjsdas",
+  "rating": 1,
+  "timestamp": {
+    "$date": "2024-07-03T16:49:28.761Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6685827dd3c1b15e272c3c84"
+  },
+  "productId": {
+    "$oid": "666bd9608916f7b0ea7fd674"
+  },
+  "userId": {
+    "$oid": "668574831d294804d810517e"
+  },
+  "username": "Đạt Tiến",
+  "photoUser": "https://lh3.googleusercontent.com/a/ACg8ocKd_TRoJdeiEBPNiowmrIVhUOhRvip4aPkkTFxqb6RSQrX984TZ=s96-c",
+  "commentText": "cdsd",
+  "rating": 4,
+  "timestamp": {
+    "$date": "2024-07-03T16:55:25.890Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "668a236cf6877c5c81f0b50e"
+  },
+  "productId": {
+    "$oid": "666bd9608916f7b0ea7fd671"
+  },
+  "userId": {
+    "$oid": "668141b2347a18af790ed5ec"
+  },
+  "username": "Trieu Tien Dat (FPL HCM)",
+  "photoUser": "https://lh3.googleusercontent.com/a/ACg8ocJ9NJFJWxg9Ibr2-L7KySro62WQE7L09xO52TBP5mSUqNiV2g=s96-c",
+  "commentText": "tesst",
+  "rating": 4,
+  "isActive": false,
+  "timestamp": "2024-07-07T05:11:08.446Z"
+},
+{
+  "_id": {
+    "$oid": "669a0668dd6388d9dd1255d2"
+  },
+  "productId": {
+    "$oid": "666bd9608916f7b0ea7fd675"
+  },
+  "userId": {
+    "$oid": "669a05cadd6388d9dd1255d0"
+  },
+  "username": "Đạt Tiến",
+  "photoUser": "https://lh3.googleusercontent.com/a/ACg8ocKd_TRoJdeiEBPNiowmrIVhUOhRvip4aPkkTFxqb6RSQrX984TZ=s96-c",
+  "commentText": "vip",
+  "rating": 4,
+  "isActive": true,
+  "timestamp": "2024-07-19T06:23:36.295Z"
+}]
