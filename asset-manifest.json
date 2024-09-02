@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Coi-Shop/static/css/main.cdac1929.css",
-    "main.js": "/Coi-Shop/static/js/main.88b37572.js",
+    "main.js": "/Coi-Shop/static/js/main.c5759ad3.js",
     "static/css/93.31d6cfe0.chunk.css": "/Coi-Shop/static/css/93.31d6cfe0.chunk.css",
     "static/js/93.07fa1a61.chunk.js": "/Coi-Shop/static/js/93.07fa1a61.chunk.js",
     "static/js/156.15bd8a91.chunk.js": "/Coi-Shop/static/js/156.15bd8a91.chunk.js",
@@ -24,7 +24,7 @@
     "static/media/slick.woff": "/Coi-Shop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Coi-Shop/index.html",
     "main.cdac1929.css.map": "/Coi-Shop/static/css/main.cdac1929.css.map",
-    "main.88b37572.js.map": "/Coi-Shop/static/js/main.88b37572.js.map",
+    "main.c5759ad3.js.map": "/Coi-Shop/static/js/main.c5759ad3.js.map",
     "93.07fa1a61.chunk.js.map": "/Coi-Shop/static/js/93.07fa1a61.chunk.js.map",
     "156.15bd8a91.chunk.js.map": "/Coi-Shop/static/js/156.15bd8a91.chunk.js.map",
     "351.94f9a4f2.chunk.js.map": "/Coi-Shop/static/js/351.94f9a4f2.chunk.js.map",
@@ -42,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.cdac1929.css",
-    "static/js/main.88b37572.js"
+    "static/js/main.c5759ad3.js"
   ]
 }
