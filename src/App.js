@@ -30,18 +30,21 @@ function App() {
   const dispatch = useDispatch();
   const loading = useDelay();
   const [searchTerm, setSearchTerm] = useState("");
-  console.log(searchTerm);
 
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
     const token = urlParams.get("token");
     const message = urlParams.get("message");
-  
+
     if (message === "Block") {
-      dispatch(showNotification({ message: "Your account is blocked", type: "error" }));
+      dispatch(
+        showNotification({ message: "Your account is blocked", type: "error" })
+      );
     } else if (token) {
       localStorage.setItem("accessToken", token);
-      dispatch(showNotification({ message: "Login successful!", type: "success" }));
+      dispatch(
+        showNotification({ message: "Login successful!", type: "success" })
+      );
     }
   }, [dispatch]);
 
@@ -67,7 +70,6 @@ function App() {
               <Route path="/forgotPassword" element={<ForgotPassword />} />
               <Route path="/checkout" element={<Checkout />} />
               <Route path="/thankyou" element={<Thankyou />} />
-
             </Route>
             <Route path="/admin" element={<AdminLayout />}>
               <Route index element={<DashboardAdmin />} />
@@ -77,10 +79,6 @@ function App() {
               <Route path="users" element={<UsersAdmin />} />
               <Route path="orders" element={<OrdersAdmin />} />
               <Route path="comments" element={<CommentsAdmin />} />
-
-
-
-
             </Route>
           </Routes>
         </Suspense>

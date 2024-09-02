@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { showNotification } from "../../../redux/notificationSlice";
 import { Rating, Switch } from "@material-tailwind/react";
 import { getAllComments, updateCommentStatus } from "../../../api/productApi";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const CommentsAdmin = () => {
   const dispatch = useDispatch();
   const [comments, setComments] = useState([]);
@@ -25,7 +25,7 @@ const CommentsAdmin = () => {
 
   useEffect(() => {
     fetchComments();
-  }, []);
+  }, );
 
   const refreshComments = () => {
     fetchComments();
@@ -133,13 +133,13 @@ const CommentsAdmin = () => {
                   </div>
                 </td>
                 <td className="p-4 border-b border-blue-gray-50">
-                  <a
+                  <Link
                     href="#"
                     onClick={(e) => handleProductClick(e, comment.productId)}
-                    className="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900 truncate w-auto text-blue-500 hover:underline"
+                    className="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900 truncate w-auto  hover:underline"
                   >
                     {comment.productId}
-                  </a>
+                  </Link>
                 </td>
                 <td className="p-4 border-b border-blue-gray-50">
                   <p className="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900 truncate w-auto">
