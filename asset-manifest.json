@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Coi-Shop/static/css/main.cdac1929.css",
-    "main.js": "/Coi-Shop/static/js/main.c5759ad3.js",
+    "main.js": "/Coi-Shop/static/js/main.9e238d53.js",
     "static/css/93.31d6cfe0.chunk.css": "/Coi-Shop/static/css/93.31d6cfe0.chunk.css",
     "static/js/93.07fa1a61.chunk.js": "/Coi-Shop/static/js/93.07fa1a61.chunk.js",
     "static/js/156.15bd8a91.chunk.js": "/Coi-Shop/static/js/156.15bd8a91.chunk.js",
@@ -17,14 +17,16 @@
     "static/js/711.4df15e30.chunk.js": "/Coi-Shop/static/js/711.4df15e30.chunk.js",
     "static/js/366.8dd963c0.chunk.js": "/Coi-Shop/static/js/366.8dd963c0.chunk.js",
     "static/js/24.54ff31f1.chunk.js": "/Coi-Shop/static/js/24.54ff31f1.chunk.js",
+    "static/media/8951.jpg": "/Coi-Shop/static/media/8951.5446250c7317966b7279.jpg",
     "static/media/futura medium bt.ttf": "/Coi-Shop/static/media/futura medium bt.4e762c29ef7b44ca51cb.ttf",
+    "static/media/logo-no-background.png": "/Coi-Shop/static/media/logo-no-background.7538e7770eda891e8f98.png",
     "static/media/slick.svg": "/Coi-Shop/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Coi-Shop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Coi-Shop/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Coi-Shop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Coi-Shop/index.html",
     "main.cdac1929.css.map": "/Coi-Shop/static/css/main.cdac1929.css.map",
-    "main.c5759ad3.js.map": "/Coi-Shop/static/js/main.c5759ad3.js.map",
+    "main.9e238d53.js.map": "/Coi-Shop/static/js/main.9e238d53.js.map",
     "93.07fa1a61.chunk.js.map": "/Coi-Shop/static/js/93.07fa1a61.chunk.js.map",
     "156.15bd8a91.chunk.js.map": "/Coi-Shop/static/js/156.15bd8a91.chunk.js.map",
     "351.94f9a4f2.chunk.js.map": "/Coi-Shop/static/js/351.94f9a4f2.chunk.js.map",
@@ -42,6 +44,6 @@
   },
   "entrypoints": [
     "static/css/main.cdac1929.css",
-    "static/js/main.c5759ad3.js"
+    "static/js/main.9e238d53.js"
   ]
 }
