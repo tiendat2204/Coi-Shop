@@ -65,7 +65,7 @@ const Navbar = ({ setSearchTerm }) => {
           <div className="flex items-center gap-2.5 md:w-full w-2/5 ">
             <a href="/">
               <img
-                src="/Assets/logo-no-background.png"
+                  src="/Assets/logo-no-background.png"
                 alt="Logo"
                 className="w-15 h-20 object-cover"
               />
