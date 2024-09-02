@@ -6,6 +6,9 @@ import { getUser, logoutUser } from "../../api/usersApi";
 import { motion } from "framer-motion";
 import { setUser } from "../../redux/userSlice";
 import { debounce } from "../Ultils/debounce";
+import logo from "../../Assets/logo-no-background.png"
+import cart from "../../Assets/cart_icon.png"
+
 const Navbar = ({ setSearchTerm }) => {
   const [menu, setMenu] = useState("shop");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -63,9 +66,9 @@ const Navbar = ({ setSearchTerm }) => {
       <div className="fixed top-0 left-0 w-full z-10 flex flex-col md:flex-row justify-between  shadow bg-white/55 backdrop-blur-md p-0 md:px-10 md:p-4 ">
         <div className="flex justify-between items-center w-full md:w-auto gap-10 md:p-0 p-4">
           <div className="flex items-center gap-2.5 md:w-full w-2/5 ">
-            <a href="/">
+            <a href="/Coi-Shop">
               <img
-                  src="/Assets/logo-no-background.png"
+                  src={logo}
                 alt="Logo"
                 className="w-15 h-20 object-cover"
               />
@@ -345,7 +348,7 @@ const Navbar = ({ setSearchTerm }) => {
           )}
           <Link to="/cart" className="relative">
             <img
-              src="/Assets/cart_icon.png"
+              src={cart}
               alt="Cart"
               className="h-6 w-6 object-cover"
             />

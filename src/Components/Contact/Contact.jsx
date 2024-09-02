@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Input, Textarea, Typography } from "@material-tailwind/react";
-
+import imgcontact from "../../Assets/8951.jpg";
 export function Contact() {
   return (
     <section className="px-8 py-8 lg:py-16 mt-28 max-w-7xl mx-auto">
@@ -26,7 +26,7 @@ export function Contact() {
         </Typography>
         <div className="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2 items-center p-3">
           <img
-            src="../Assets/8951.jpg"
+            src={imgcontact}
             alt="fashion show"
             className="w-full h-full lg:max-h-[700px]"
           />
