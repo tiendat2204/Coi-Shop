@@ -57,7 +57,7 @@ function App() {
         <Suspense fallback={<Loading />}>
           <Routes>
             <Route element={<UserLayout setSearchTerm={setSearchTerm} />}>
-              <Route path="/Coi-Shop" element={<Shop />} />
+              <Route path="/" element={<Shop />} />
               <Route
                 path="/category"
                 element={<ShopCategory searchTerm={searchTerm} />}
