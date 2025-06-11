@@ -44,7 +44,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className="flex-none mt-14 md:mt-0 md:max-w-3xl px-4 sm:px-6 lg:px-8">
+      <div className="flex-none mt-14 md:mt-0 md:max-w-4xl px-4 sm:px-6 lg:px-8">
   <Spline scene="https://prod.spline.design/ENQiNuOO9ryiKSb2/scene.splinecode" />
 </div>
     </div>

@@ -66,7 +66,7 @@ const Navbar = ({ setSearchTerm }) => {
       <div className="fixed top-0 left-0 w-full z-10 flex flex-col md:flex-row justify-between  shadow bg-white/55 backdrop-blur-md p-0 md:px-10 md:p-4 ">
         <div className="flex justify-between items-center w-full md:w-auto gap-10 md:p-0 p-4">
           <div className="flex items-center gap-2.5 md:w-full w-2/5 ">
-            <a href="/Coi-Shop">
+            <a href="/">
               <img
                   src={logo}
                 alt="Logo"
