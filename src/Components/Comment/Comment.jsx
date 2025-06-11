@@ -13,9 +13,9 @@ import { showNotification } from "../../redux/notificationSlice";
 
 const Comment = ({ productId }) => {
   const dispatch = useDispatch();
-  const [productData, setProductData] = useState(null);
+  const [, setProductData] = useState(null);
   const [comments, setComments] = useState([]);
-  const [userData, setUserData] = useState(null);
+  const [, setUserData] = useState(null);
   const [commentText, setCommentText] = useState("");
   const [rating, setRating] = useState(0);
   const [editingCommentId, setEditingCommentId] = useState(null);

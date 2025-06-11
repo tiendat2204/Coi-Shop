@@ -18,11 +18,10 @@ const Stats = () => {
           </p>
         </div>
         <ul
-          role="list"
           className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3"
         >
           <li>
-            <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
+            <ul  className="flex flex-col gap-y-6 sm:gap-y-8">
               <li>
                 <figure className="relative bg-white dark:bg-gray-900 p-6 text-center border rounded-md">
                   <blockquote className="relative p-3">

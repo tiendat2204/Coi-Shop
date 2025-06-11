@@ -45,7 +45,7 @@ const Checkout = () => {
     if (selectedWard) {
       calculateShippingFee(selectedDistrict, selectedWard);
     }
-  }, [selectedWard]);
+  }, [selectedWard, selectedDistrict]);
 
   useEffect(() => {
     fetchProvinces();

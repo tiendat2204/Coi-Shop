@@ -15,7 +15,7 @@ const Navbar = ({ setSearchTerm }) => {
   const cartItems = useSelector((state) => state.cart.items);
   const [showLoginRegister, setShowLoginRegister] = useState(false);
   const [modalType, setModalType] = useState("login");
-  const [searchTerm, setSearchTermLocal] = useState("");
+  const [, setSearchTermLocal] = useState("");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dispatch = useDispatch();
   const navigate = useNavigate();

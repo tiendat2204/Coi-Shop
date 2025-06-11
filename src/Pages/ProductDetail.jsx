@@ -5,7 +5,6 @@ import {
   AccordionHeader,
   Button,
   IconButton,
-  Rating,
   Typography,
 } from "@material-tailwind/react";
 import { useDispatch, useSelector } from "react-redux";
@@ -258,7 +257,7 @@ export function ProductDetail() {
         </div>
         <div className="flex md:flex-row flex-col md:space-x-8 md:mt-16 mt-8">
           <div className="md:w-5/12 lg:w-4/12 w-full">
-            <img
+            <image
               src="../Assets/portrait-young-japanese-woman-with-jacket.jpg"
               alt="Image of Glass bottle"
               className="w-full md:block hidden"

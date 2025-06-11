@@ -6,7 +6,6 @@ import OrderDetailsAdmin from "./OrdersDetailAdmin";
 import OrdersForm from "./OrdersForm";
 import {
   formatPrice,
-  formatDate,
 } from "../../../Components/Ultils/formatPrice";
 import { getStatusStyle } from "../Ultils/statusOrder";
 const OrdersAdmin = () => {

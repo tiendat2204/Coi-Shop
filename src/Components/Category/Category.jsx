@@ -26,7 +26,7 @@ const sortOptions = [
 export default function Category({ searchTerm }) {
   console.log(searchTerm);
 
-  const [products, setProducts] = useState([]);
+  const [, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [filteredProducts, setFilteredProducts] = useState([]);
   const itemsPerPage = 12;

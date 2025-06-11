@@ -9,8 +9,6 @@ const CategoryAdmin = () => {
   const dispatch = useDispatch();
   const [categories, setCategories] = useState([]);
   const [currentCategory, setCurrentCategory] = useState(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [description, setDescription] = useState("");
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [isDeleteDialogOpen, setIsDeleteDialogOpen] = useState(false);
   const [categoryToDelete, setCategoryToDelete] = useState(null);
@@ -34,14 +32,6 @@ const CategoryAdmin = () => {
     fetchCategories();
   }, []);
 
-  const handleViewClick = (desc) => {
-    setDescription(desc);
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
 
   const openFormForEdit = (category) => {
     setCurrentCategory(category);

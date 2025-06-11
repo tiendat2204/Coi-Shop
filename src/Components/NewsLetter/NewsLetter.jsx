@@ -1,6 +1,4 @@
-import React from "react";
 import "./NewsLetter.css";
-import Spline from "@splinetool/react-spline";
 
 const NewsLetter = () => {
   return (
